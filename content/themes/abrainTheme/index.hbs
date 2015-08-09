@@ -1,0 +1,35 @@
+{{!< default}}
+
+<div class="row">
+		<h1>abrain is a  </br> creative technologist and humorist</h1>
+</div>
+
+{{#foreach posts}}
+	<div class="row">
+		<div class="two columns pad">
+			<h5>
+				&nbsp;
+			</h5>
+		</div>
+		<div class="three columns">
+			<h5>
+				<a href={{url}}>
+					{{title}}
+				</a>
+			</h5>
+		</div>
+		<div class="five columns description">
+			<h5>
+				{{content words="20"}}
+			</h5>
+		</div>
+		<div class="two columns pad">
+			<h5>
+				<div>&nbsp;</div>
+			</h5>
+		</div>
+	</div>	
+{{/foreach}}
+<div id="footer">
+	<h4>abrain pretends to be someone else on facebook, twitter, soundcloud and tumblr</h4>
+</div>
