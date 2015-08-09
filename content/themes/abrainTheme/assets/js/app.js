@@ -12,6 +12,7 @@ window.onload = function(){
 		player[i].id = i;
 		player[i].div = x[i];
 		player[i].div.id = i;
+		player[i].putPaper();
 		player[i].div.onclick = function(){
 			player[this.id].play();
 		}
